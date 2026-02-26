@@ -49,7 +49,7 @@ These steps played a crucial role in improving model stability and accuracy.
 
 ---
 
-## 🧠 Deep Learning Models Implemented
+##  Deep Learning Models Implemented
 
 ### 🔹 ResNet-50 (Transfer Learning)
 A pretrained convolutional network fine-tuned for binary classification.
@@ -88,30 +88,47 @@ Consistent and stable performance across both training and validation datasets.
 
 ## 📈 Results & Model Performance
 
-### ⭐ Vision Transformer — Best Performing Model
+### Vision Transformer — Best Performing Model
 
-<img src="Results/VIT_result.png" width="600">
-<img src="Results/Vision_Transformer_matrix.png" width="500">
+<p align="center">
+  <img src="Results/VIT_result.png" width="420">
+</p>
 
----
-
-### ResNet-50 Results
-
-<img src="Results/Resnet.png" width="600">
-<img src="Results/Resnet_confusion_matrix.png" width="500">
+<p align="center">
+  <img src="Results/Vision_Transformer_matrix.png" width="380">
+</p>
 
 ---
 
-### Custom VGG Results
+### 🔹 ResNet-50 Results
 
-<img src="Results/VGG_RESULT.png" width="600">
-<img src="Results/VGG_matrix.png" width="500">
+<p align="center">
+  <img src="Results/Resnet.png" width="420">
+</p>
+
+<p align="center">
+  <img src="Results/Resnet_confusion_matrix.png" width="380">
+</p>
 
 ---
 
-### EfficientNet Results
+### 🔹 Custom VGG Results
 
-<img src="Results/EfficientNet.png" width="600">
+<p align="center">
+  <img src="Results/VGG_RESULT.png" width="420">
+</p>
+
+<p align="center">
+  <img src="Results/VGG_matrix.png" width="380">
+</p>
+
+---
+
+### 🔹 EfficientNet Results
+
+<p align="center">
+  <img src="Results/EfficientNet.png" width="420">
+</p>
 
 ---
 
@@ -132,7 +149,7 @@ Python • TensorFlow • Keras • OpenCV • NumPy • Pandas • Matplotlib �
 
 ---
 
-## 🎯 Key Takeaways
+##  Key Takeaways
 
 - Deep learning models can effectively classify breast cancer from medical imaging data.
 - Transformer-based architectures demonstrated superior ability in capturing complex visual patterns.
