@@ -1,4 +1,4 @@
-# 🩺 Breast Cancer Classification using Deep Learning
+#  Breast Cancer Classification using Deep Learning
 
 ## Project Summary
 
@@ -8,25 +8,25 @@ The primary goal was to design, train, and compare multiple state-of-the-art dee
 
 ---
 
-## 📊 Datasets Used
+##  Datasets Used
 
 To ensure diverse learning, the models were trained and evaluated on three well-known medical imaging datasets:
 
-### 🔹 BreakHis Dataset
+###  BreakHis Dataset
 - **Type:** Histopathology images  
 - **Classes:** Benign (0) | Malignant (1)  
 - **Usage:** Applied with ResNet-50 and Vision Transformer models to analyze tissue-level cancer patterns.
 
 ---
 
-### 🔹 DDSM Dataset
+###  DDSM Dataset
 - **Type:** Mammogram images  
 - **Classes:** Benign (0) | Malignant (1)  
 - **Usage:** Used for training CNN-based architectures including Custom VGG and EfficientNet.
 
 ---
 
-### 🔹 INbreast Dataset
+###  INbreast Dataset
 - **Type:** Mammography images  
 - **Classes:** Benign (0) | Malignant (1)  
 - **Usage:** Evaluated using both CNN and transformer-based approaches for comparative analysis.
@@ -35,7 +35,7 @@ To ensure diverse learning, the models were trained and evaluated on three well-
 
 ---
 
-## ⚙️ Data Preparation & Processing
+##  Data Preparation & Processing
 
 Key preprocessing steps performed:
 
@@ -51,7 +51,7 @@ These steps played a crucial role in improving model stability and accuracy.
 
 ##  Deep Learning Models Implemented
 
-### 🔹 ResNet-50 (Transfer Learning)
+###  ResNet-50 (Transfer Learning)
 A pretrained convolutional network fine-tuned for binary classification.
 
 **Observation:**  
@@ -59,7 +59,7 @@ High training accuracy but noticeable overfitting during validation.
 
 ---
 
-### 🔹 EfficientNetB3
+###  EfficientNetB3
 A lightweight yet powerful architecture optimized for feature extraction.
 
 **Observation:**  
@@ -67,7 +67,7 @@ Strong training performance with some limitations in generalizing to unseen data
 
 ---
 
-### 🔹 Vision Transformer (ViT)
+###  Vision Transformer (ViT)
 An attention-based architecture that learns global relationships within images using patch embeddings.
 
 **Performance Achieved:**
@@ -78,7 +78,7 @@ This model delivered the best overall classification performance among all appro
 
 ---
 
-### 🔹 Custom VGG-Based CNN
+###  Custom VGG-Based CNN
 A tailored CNN architecture incorporating dropout, batch normalization, and regularization techniques.
 
 **Observation:**  
@@ -86,9 +86,9 @@ Consistent and stable performance across both training and validation datasets.
 
 ---
 
-## 📈 Results & Model Performance
+##  Results & Model Performance
 
-### Vision Transformer — Best Performing Model
+###  Vision Transformer — Best Performing Model
 
 <p align="center">
   <img src="Results/VIT_result.png" width="420">
@@ -100,7 +100,7 @@ Consistent and stable performance across both training and validation datasets.
 
 ---
 
-### 🔹 ResNet-50 Results
+###   ResNet-50 Results
 
 <p align="center">
   <img src="Results/Resnet.png" width="420">
@@ -112,7 +112,7 @@ Consistent and stable performance across both training and validation datasets.
 
 ---
 
-### 🔹 Custom VGG Results
+###  Custom VGG Results
 
 <p align="center">
   <img src="Results/VGG_RESULT.png" width="420">
@@ -124,7 +124,7 @@ Consistent and stable performance across both training and validation datasets.
 
 ---
 
-### 🔹 EfficientNet Results
+###  EfficientNet Results
 
 <p align="center">
   <img src="Results/EfficientNet.png" width="420">
@@ -132,7 +132,15 @@ Consistent and stable performance across both training and validation datasets.
 
 ---
 
-## 📊 Performance Comparison
+###  EfficientNet Results
+
+<p align="center">
+  <img src="Results/EfficientNet.png" width="420">
+</p>
+
+---
+
+##  Performance Comparison
 
 | Model | Key Insight |
 |------|-------------|
@@ -143,7 +151,7 @@ Consistent and stable performance across both training and validation datasets.
 
 ---
 
-## 🛠 Technologies & Tools
+##  Technologies & Tools
 
 Python • TensorFlow • Keras • OpenCV • NumPy • Pandas • Matplotlib • Scikit-learn
 
@@ -158,7 +166,7 @@ Python • TensorFlow • Keras • OpenCV • NumPy • Pandas • Matplotlib �
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Khushi Tyagi**  
 B.Tech — Data Science
