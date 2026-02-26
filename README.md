@@ -1,151 +1,91 @@
 # Breast Cancer Classification using Deep Learning
 
-## Project Summary
+## Project Overview
 
-Early detection of breast cancer significantly improves survival rates. This project focuses on applying deep learning techniques to automatically classify breast tumor images into **benign** and **malignant** categories.
+This project focuses on early detection of breast cancer using deep learning models to classify medical images into **Benign** and **Malignant** categories.
 
-The main objective was to design, train, and compare multiple state-of-the-art deep learning architectures to evaluate their effectiveness in medical image classification and identify the most reliable model for accurate diagnosis support.
+Multiple state-of-the-art architectures were implemented and compared to identify the most accurate and reliable model for medical image classification.
 
 ---
 
 ## Datasets Used
 
-To ensure diverse learning, the models were trained and evaluated using three well-known medical imaging datasets:
+- **BreakHis:** Histopathology images  
+- **DDSM:** Mammogram images  
+- **INbreast:** Mammography dataset  
 
-### BreakHis Dataset
-- **Type:** Histopathology images  
-- **Classes:** Benign (0) | Malignant (1)  
-- **Usage:** Used with ResNet-50 and Vision Transformer to analyze tissue-level cancer patterns.
-
----
-
-### DDSM Dataset
-- **Type:** Mammogram images  
-- **Classes:** Benign (0) | Malignant (1)  
-- **Usage:** Used for training CNN-based architectures including Custom VGG and EfficientNet.
+> Datasets are not included due to large size.
 
 ---
 
-### INbreast Dataset
-- **Type:** Mammography images  
-- **Classes:** Benign (0) | Malignant (1)  
-- **Usage:** Evaluated using both CNN and transformer-based approaches for comparative analysis.
+## Data Processing Steps
 
-> Due to large file sizes, datasets are not included in this repository. Download links are provided separately.
-
----
-
-## Data Preparation & Processing
-
-Key preprocessing steps performed:
-
-- Image resizing and normalization  
-- Data augmentation to improve generalization  
-- Handling class imbalance using class weights  
-- Training–validation split for evaluation  
+- Image resizing & normalization  
+- Data augmentation  
+- Handling class imbalance  
+- Train–validation split  
 - Early stopping to prevent overfitting  
 
 ---
 
-## Deep Learning Models Implemented
+## Models Implemented
 
-### ResNet-50 (Transfer Learning)
+- **ResNet-50:** High accuracy but overfitting observed  
+- **EfficientNetB3:** Strong feature extraction performance  
+- **Vision Transformer (ViT):** Best performing model  
+- **Custom VGG CNN:** Stable and consistent results  
 
-A pretrained convolutional neural network fine-tuned for binary classification.
-
-**Observation:** High training accuracy but noticeable overfitting during validation.
-
----
-
-### EfficientNetB3
-
-A lightweight and efficient architecture optimized for feature extraction.
-
-**Observation:** Strong training performance with moderate generalization ability.
+**Best Model Performance (ViT):**
+- Accuracy: **88.51%**
+- F1 Score: **0.87**
 
 ---
 
-### Vision Transformer (ViT) — Best Performing Model
+## Results
 
-An attention-based architecture that captures global image relationships using patch embeddings.
-
-**Performance Achieved:**
-- **Accuracy:** 88.51%
-- **F1 Score:** 0.87
-
----
-
-### Custom VGG-Based CNN
-
-A tailored CNN architecture with dropout, batch normalization, and regularization techniques.
-
-**Observation:** Stable and consistent performance across both training and validation datasets.
-
----
-
-## Results & Model Performance
-
-### Vision Transformer Results
+### Vision Transformer
 
 <p align="center">
-  <img src="Results/VIT_result.png" width="300">
-  <br>
-  <img src="Results/Vision_Transformer_matrix.png" width="280">
+  <img src="Results/VIT_result.png" width="350">
 </p>
 
 ---
 
-### ResNet-50 Results
+### ResNet-50
 
 <p align="center">
-  <img src="Results/Resnet.png" width="300">
-  <br>
-  <img src="Results/Resnet_confusion_matrix.png" width="280">
+  <img src="Results/Restnet.png" width="350">
 </p>
 
 ---
 
-### Custom VGG Results
+### Custom VGG
 
 <p align="center">
-  <img src="Results/VGG_RESULT.png" width="300">
-  <br>
-  <img src="Results/VGG_matrix.png" width="280">
+  <img src="Results/VGG_RESULT.png" width="350">
 </p>
 
 ---
 
-### EfficientNet Results
+### EfficientNet
 
 <p align="center">
-  <img src="Results/EfficientNet.png" width="300">
+  <img src="Results/EfficientNet.png" width="350">
 </p>
 
 ---
 
-## Performance Comparison
+## Tech Stack
 
-| Model | Key Insight |
-|------|-------------|
-| ResNet-50 | Overfitting observed |
-| EfficientNetB3 | High training accuracy |
-| Vision Transformer | Best accuracy & generalization |
-| Custom VGG | Stable and reliable performance |
-
----
-
-## Technologies & Tools
-
-Python • TensorFlow • Keras • OpenCV • NumPy • Pandas • Matplotlib • Scikit-learn
+**Python • TensorFlow • Keras • OpenCV • NumPy • Pandas • Matplotlib • Scikit-learn**
 
 ---
 
 ## Key Takeaways
 
-- Deep learning models can effectively classify breast cancer from medical images.  
-- Transformer-based architectures showed superior ability in capturing complex visual patterns.  
-- Proper preprocessing and augmentation significantly improved performance.  
-- Comparative analysis helped identify the most reliable architecture.
+- Deep learning can effectively classify breast cancer from medical images.  
+- Vision Transformer showed best accuracy and generalization.  
+- Proper preprocessing significantly improved performance.
 
 ---
 
