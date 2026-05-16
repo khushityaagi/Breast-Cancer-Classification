@@ -46,7 +46,7 @@ Multiple state-of-the-art architectures were implemented and compared to identif
 ### Vision Transformer
 
 <p align="center">
-  <img src="Results/VIT_result.png" width="350">
+  <img src="Results/VIT_result.png" width="200">
 </p>
 
 ---
@@ -54,7 +54,7 @@ Multiple state-of-the-art architectures were implemented and compared to identif
 ### ResNet-50
 
 <p align="center">
-  <img src="Results/Restnet.png" width="350">
+  <img src="Results/Restnet.png" width="250">
 </p>
 
 ---
@@ -62,7 +62,7 @@ Multiple state-of-the-art architectures were implemented and compared to identif
 ### Custom VGG
 
 <p align="center">
-  <img src="Results/VGG_RESULT.png" width="350">
+  <img src="Results/VGG_RESULT.png" width="250">
 </p>
 
 ---
@@ -70,7 +70,7 @@ Multiple state-of-the-art architectures were implemented and compared to identif
 ### EfficientNet
 
 <p align="center">
-  <img src="Results/EfficientNet.png" width="350">
+  <img src="Results/EfficientNet.png" width="250">
 </p>
 
 ---
